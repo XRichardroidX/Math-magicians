@@ -26,13 +26,32 @@
   margin-right: 8rem;
 }
 
-.buttons .ac, .both, .percentage, .division, .seven, .eight, .nine, .x, .four, .five, .six, .minus, .one, .two, .three, .plus {
+.buttons .ac,
+.both,
+.percentage,
+.division,
+.seven,
+.eight,
+.nine,
+.x,
+.four,
+.five,
+.six,
+.minus,
+.one,
+.two,
+.three,
+.plus {
   padding: 300% 500% 300% 500%;
   font-size: 20px;
   text-align: center;
 }
 
-.plus, .x, .minus, .equals-to, .division{
+.plus,
+.x,
+.minus,
+.equals-to,
+.division {
   background-color: rgb(231, 157, 20);
 }
 
@@ -42,7 +61,8 @@
   font-size: 20px;
 }
 
-.full-stop, .equals-to {
+.full-stop,
+.equals-to {
   margin-top: -6rem;
   padding: 250% 500% 200% 500%;
   font-size: 20px;
