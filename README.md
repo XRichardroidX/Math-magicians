@@ -2,7 +2,7 @@
 
 <div align="center">
   
-  <img src="img.gif" alt="logo" width="360"  height="auto" />
+  <img src="img.gif" alt="logo" width="760"  height="auto" />
   <br/>
 
   <h3><b>React</b></h3>
