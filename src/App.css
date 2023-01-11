@@ -1,70 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fff;
+}
+
 .App {
-  color: blue;
-}
-
-.body {
   display: flex;
-  justify-content: center;
+  min-height: 100vh;
   align-items: center;
+  justify-content: center;
 }
 
-.screen {
-  margin-top: -40rem;
-  position: absolute;
-  background-color: gray;
-  padding: 3rem 3rem 3rem 42rem;
-  margin-right: -3.5rem;
-  font-size: 45px;
+.calculator {
+  width: 100%;
+  max-width: 40rem;
+  overflow: hidden;
 }
 
-.buttons {
-  display: grid;
-  grid-template-columns: 20px 20px 20px 20px;
-  grid-template-rows: 20px 20px 20px 20px;
-  row-gap: 6rem;
-  column-gap: 10rem;
-  margin-right: 8rem;
+.display {
+  padding: 1.6rem;
+  text-align: right;
+  background-color: rgb(133, 134, 146);
+  color: #fff;
+  font-size: 3.5rem;
 }
 
-.buttons .ac,
-.both,
-.percentage,
-.division,
-.seven,
-.eight,
-.nine,
-.x,
-.four,
-.five,
-.six,
-.minus,
-.one,
-.two,
-.three,
-.plus {
-  padding: 300% 500% 300% 500%;
-  font-size: 20px;
-  text-align: center;
+button {
+  appearance: none;
+  border: 1px solid rgb(209, 209, 209);
+  color: black;
+  background-color: rgb(224, 224, 224);
+  outline: none;
+  font-size: 2rem;
+  padding: 1.6rem;
+  cursor: pointer;
+  transition: 0.4s;
 }
 
-.plus,
-.x,
-.minus,
-.equals-to,
-.division {
-  background-color: rgb(231, 157, 20);
+button:nth-child(4n) {
+  background-color: rgb(224, 163, 57);
 }
 
-.zero {
-  margin-top: -6rem;
-  padding: 200% 1280% 200% 500%;
-  font-size: 20px;
+button:last-child {
+  background-color: rgb(224, 163, 57);
 }
 
-.full-stop,
-.equals-to {
-  margin-top: -6rem;
-  padding: 250% 500% 200% 500%;
-  font-size: 20px;
-  margin-left: 11.25rem;
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 1;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inputs button {
+  max-width: 25%;
+  flex: 1 25%;
+}
+
+.inputs button:nth-child(17) {
+  max-width: 50%;
+  flex: 1 50%;
 }
