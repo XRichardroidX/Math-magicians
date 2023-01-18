@@ -23,7 +23,7 @@ class Home extends React.PureComponent {
           algebra, and geometry for taxation and other financial calculations,
           for building and construction, and for astronomy.
           The oldest mathematical texts from Mesopotamia and Egypt are from 2000
-          to 1800 BC. Many early texts mention Pythagorean triples and so,
+          to 1800BC. Many early texts mention Pythagorean triples and so,
           by inference, the Pythagorean theorem seems to be the most ancient and
           widespread mathematical concept after basic arithmetic and geometry.
           It is in Babylonian mathematics that elementary arithmetic (addition, subtraction,
