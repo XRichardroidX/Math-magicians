@@ -1,77 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.desc-main {
+  margin: 0 15px 0 15px;
+  background-color: rgb(192, 4, 192);
+  padding: 30px;
+  opacity: 0.9;
 }
 
-html {
-  font-size: 62.5%;
+.desc-font {
+  font-family: 'Comic Sans MS', serif;
+  color: white;
 }
 
-body {
-  background-color: #fff;
-}
-
-.App {
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
-.calculator {
-  width: 100%;
-  max-width: 40rem;
-  overflow: hidden;
-}
-
-.display {
-  padding: 1.6rem;
-  text-align: right;
-  background-color: rgb(133, 134, 146);
-  color: #fff;
-  font-size: 3.5rem;
-}
-
-button {
-  appearance: none;
-  border: 1px solid rgb(209, 209, 209);
-  color: black;
-  background-color: rgb(224, 224, 224);
-  outline: none;
-  font-size: 2rem;
-  padding: 1.6rem;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-button:nth-child(4n) {
-  background-color: rgb(224, 163, 57);
-}
-
-button:last-child {
-  background-color: rgb(224, 163, 57);
-}
-
-button:hover {
-  opacity: 0.7;
-}
-
-button:active {
-  opacity: 1;
-}
-
-.inputs {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.inputs button {
-  max-width: 25%;
-  flex: 1 25%;
-}
-
-.inputs button:nth-child(17) {
-  max-width: 50%;
-  flex: 1 50%;
+.ft-sz {
+  font-size: x-large;
 }

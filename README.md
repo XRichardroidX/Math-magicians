@@ -1,179 +1,82 @@
-<a name="readme-top"></a>
+# Mathemagician | M3Wx
 
-<div align="center">
-  
-  <img src="img.gif" alt="logo" width="760"  height="auto" />
-  <br/>
+> "Mathemagician" is a web app for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
 
-  <h3><b>React</b></h3>
+![screenshot](branding/demo.png)
 
-</div>
+Our goal here is to Build a single page web application for mathematics weebs using the React library
 
-# 📗 Table of Contents
+## Live Demo
+Click [here](https://harlexkhal.github.io/Mathemagician/) to view live demo
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+### Features implemented so far are:
 
-<!-- PROJECT DESCRIPTION -->
+- Project Setup with React Installations
+- Calculator with (Add, Minus, Multiply, and Division) Features
+- Page for Mathematics Quotes
+- Home page that gives information about the history of mathematics
 
-# 📖 [React] <a name="about-project"></a>
+## Built With
 
-> This is a Javascript Capstone which is a Netflix inspired project that displays movie images from an array object JSON API.
+- React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
+- React Testing Library
+- React Router version 6
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
-**[React]** 
-
-## 🛠 Built With <a name="built-with"></a>
-React.js
-ES6 Features
-Webpack
-CSS-3
-HTML-5
-### Tech Stack <a name="tech-stack"></a>
-
-> React.JS
-
-
-### Key Features <a name="key-features"></a>
-
-- **[Addition]**
-- **[Multiplication]**
-- **[Subtraction]**
-- **[Division]**
-- **[Module]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- LIVE DEMO -->
-<!--
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+The basic requirements for building the executable are:
 
-Example command:
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
+# Getting Started
 
-### Setup
+#### Cloning the project
 
-Clone this repository to your desired folder:
-
-
-```sh
- git clone https://github.com/XRichardroidX/Math-magicians.git
+```
+git clone  https://github.com/harlexkhal/Mathemagician <Your-Build-Directory>
 ```
 
-<!--
-Example command:
-
-```sh
-  cd JS-Capstone
+## Getting packages and dependencies
+To get all package modules required to build the project run:
 ```
---->
-
-### Install
-
-Install this project with:
-
-Example command:
-
-```sh
-  npm install
+npm install
 ```
+every package module required to build the project is listed in the package.json file. this is used as a reference to get all dependencies.
 
-### Run tests
+## Building 
 
-To run tests, run the following command:
-
-Example command:
-
-```sh
-  npm run test
+To build the project run:
 ```
+npm run build
+```
+after you run this sucessfully you'd locate the build from in the ```build``` folder located from the parent directory of the project.
 
+## Running
 
-### Future Features <a name="key-features"></a>
+To run the program on a browser through a server run this command in your cli
+```
+npm start
+```
+This should open the page in your localhost on port 3000. then you'd be able to view the built page generated using webpack.
 
-- **[Mathematics Quotes]**
-- **[Home page]**
+## Unit-Testing
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+You can find all of the unit test for testing all components in the ```src/__Test__``` folder located in the parent source directory of the project. you can create your own custom unit test and test it by running
+```
+npm run test
+```
+This should run all unit test found in the ```src/__Test__```
 
-<!-- AUTHORS -->
+## License
 
-## 👥 Authors <a name="authors"></a>
+All source code files are licensed under the permissive zlib license
+(http://opensource.org/licenses/Zlib) unless marked differently in a particular folder/file.
 
-> Mention all of the collaborators of this project.
-
-👤 **Richard O.I**
-
-- GitHub: [@githubhandle](https://github.com/XRichardroidX)
-- Twitter: [@twitterhandle](https://twitter.com/RichardroiDX)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/richard-oguzie-ibeh-b4a975231/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/XRichardroidX/Math-magicians/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank Microverse for this great oppurtunity
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](MIT.md) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Author
+- **Alexander Oguzie-Ibeh** - [github](https://github.com/harlexkhal), [linkedin](https://www.linkedin.com/in/alexander-oguzie-ibeh-776814164), [twitter](https://twitter.com/harlexkhal)
