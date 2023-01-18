@@ -1,17 +1,13 @@
-import './App.css';
 import React from 'react';
-import CalculatorUi from './components/Calculator';
+import { HashRouter } from 'react-router-dom';
+import AppRoutes from './routes';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
+const App = () => (
+  <React.StrictMode>
+    <HashRouter>
+      <AppRoutes />
+    </HashRouter>
+  </React.StrictMode>
+);
 
-  render() {
-    return (
-      <CalculatorUi />
-    );
-  }
-}
 export default App;

@@ -1,78 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 body {
-  background-color: #fff;
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.App {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.calculator {
-  position: absolute;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  margin: 15% 35% 15% 35%;
-}
-
-.display {
-  padding: 1.6rem;
-  text-align: right;
-  background-color: rgb(133, 134, 146);
-  color: #fff;
-  font-size: 3.5rem;
-}
-
-button {
-  appearance: none;
-  border: 1px solid rgb(209, 209, 209);
-  color: black;
-  background-color: rgb(224, 224, 224);
-  outline: none;
-  font-size: 2rem;
-  padding: 1.6rem;
-  cursor: pointer;
-  transition: 0.4s;
-}
-
-button:nth-child(4n) {
-  background-color: rgb(231, 150, 80);
-}
-
-button:last-child {
-  background-color: rgb(231, 150, 80);
-}
-
-button:hover {
-  opacity: 0.7;
-}
-
-button:active {
-  opacity: 1;
-}
-
-.inputs {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.inputs button {
-  max-width: 25%;
-  flex: 1 25%;
-}
-
-.inputs button:nth-child(17) {
-  max-width: 50%;
-  flex: 1 50%;
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
 }
