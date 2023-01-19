@@ -2,13 +2,12 @@
   "name": "math-magicians",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://XRichardroidX.github.io/Math-magicians",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/user-event": "^13.5.0",
     "big.js": "^6.2.1",
-    "gh-pages": "^4.0.0",
     "history": "^5.3.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
@@ -28,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --verbose",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build", 
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -61,6 +60,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^4.0.0",
     "jest": "^27.5.1",
     "jest-environment-jsdom": "^29.3.1",
     "stylelint": "^13.13.1",
